@@ -29,6 +29,11 @@ export function Home() {
       <SafeAreaView style={styles.container}>
         <Image source={logoImg} style={styles.logo} />
 
+        <Heading
+          title="Encontre o seu duo!"
+          subtitle="Selecione o game que deseja jogar..."
+        />
+
         <FlatList
           data={games}
           keyExtractor={(item) => item.id}
@@ -38,11 +43,6 @@ export function Home() {
           horizontal
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={styles.contentList}
-        />
-
-        <Heading
-          title="Encontre o seu duo!"
-          subtitle="Selecione o game que deseja jogar..."
         />
       </SafeAreaView>
     </Background>

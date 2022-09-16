@@ -13,7 +13,7 @@ export interface GameCardProps {
   id: string;
   title: string;
   _count: {
-    ads: string;
+    Ads: string;
   };
   bannerUrl: string;
 }
@@ -28,7 +28,7 @@ export function GameCard({ data, ...rest }: Props) {
       <ImageBackground style={styles.cover} source={{ uri: data.bannerUrl }}>
         <LinearGradient colors={THEME.COLORS.FOOTER} style={styles.footer}>
           <Text style={styles.name}>{data.title}</Text>
-          <Text style={styles.ads}>{data._count.ads}</Text>
+          <Text style={styles.ads}>{`${data._count.Ads} anúncio(s)`}</Text>
         </LinearGradient>
       </ImageBackground>
     </TouchableOpacity>
