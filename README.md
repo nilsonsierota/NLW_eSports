@@ -12,7 +12,7 @@ This project was developed the backend with [nodejs](https://nodejs.org/en/) wit
 
 The web use [reactjs](https://reactjs.org) with [vitejs](https://vitejs.dev/) and the phenomenal [tailwindcss](https://tailwindcss.com/) for style. [phosphoricons](https://phosphoricons.com/) is use for the icons. The modal part use [Radix](https://github.com/radix-ui/primitives) primitives components for acessibility. He use [Axios](https://github.com/axios/axios) for consume the API server.
 
-In the mobile use [react-native](https://facebook.github.io/react-native/) with [expo](https://expo.io/) managed workflow, and for navigation use [reactnavigation](https://reactnavigation.org/), the mobile use [clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/) and [push-notification](https://docs.expo.dev/push-notifications/overview/) by Expo. [phosphoricons](https://phosphoricons.com/) mobile version is use for the icons.
+In the mobile use [react-native](https://facebook.github.io/react-native/) with [expo](https://expo.io/) managed workflow, and for navigation use [reactnavigation](https://reactnavigation.org/), the mobile use [clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/) and [push-notification](https://docs.expo.dev/push-notifications/overview/). [phosphoricons](https://phosphoricons.com/) mobile version is use for the icons.
 
 ---
 
