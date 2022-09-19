@@ -4,7 +4,7 @@ Project Find your DUO NLW eSports Week.
 
 ![image](https://user-images.githubusercontent.com/15880212/189728034-1fb07f43-551e-4b96-bec5-cc1f2a0e8111.png)
 
-This project was developed the backend with [nodejs](https://nodejs.org/en/) with sqllite and [prisma](https://www.prisma.io/), use the Insomnia file to import JSON for test routes. He have four routes created: 
+This project was developed the backend with [nodejs](https://nodejs.org/en/) with [prisma](https://www.prisma.io/), database is sqlite, use the Insomnia file to import JSON for test routes. He have four routes created: 
 - POST: Create Ad /games/:id/ads (:id = gameId)
 - GET: Ad by Game games/:id (:id = gameId)
 - GET: List all games /games
